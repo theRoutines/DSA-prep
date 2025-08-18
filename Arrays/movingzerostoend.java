@@ -1,6 +1,6 @@
 //GFG EASY
 //O(n)
-
+//made changes in the same array itself, took a new variable denoting the index of the array and started replacing the characters of the array. 
 class Solution {
     void pushZerosToEnd(int[] arr) {
         int n = arr.length;
