@@ -1,0 +1,5 @@
+20-08-2025
+1) Use TreeSet(O(n logn)) instead of HashSet if you want to remove duplicates and maintain the order of the elements.
+2) But using LinkedHashSet(O(n)) would maintain the order and even reduce the complexity of the code.
+3) When ever get the keyword Sorted List, keep in mind for two-pointers pattern
+4) Reverse array prob;em - learn how to optimise SPACE complexity.
