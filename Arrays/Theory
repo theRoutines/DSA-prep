@@ -3,3 +3,5 @@
 2) But using LinkedHashSet(O(n)) would maintain the order and even reduce the complexity of the code.
 3) When ever get the keyword Sorted List, keep in mind for two-pointers pattern
 4) Reverse array prob;em - learn how to optimise SPACE complexity.
+5) While rotating, try using in place rotation without using another array, sor this you can use two pointer (reverse right questions)
+
