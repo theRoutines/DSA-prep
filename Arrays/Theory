@@ -5,3 +5,5 @@
 4) Reverse array prob;em - learn how to optimise SPACE complexity.
 5) While rotating, try using in place rotation without using another array, sor this you can use two pointer (reverse right questions)
 
+21-08-2025
+1) <LinkedHashSet> would maintain the order not ascending order but <TreeSet> maintain ascending order without duplicates.
