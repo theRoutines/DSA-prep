@@ -7,3 +7,7 @@
 
 21-08-2025
 1) <LinkedHashSet> would maintain the order not ascending order but <TreeSet> maintain ascending order without duplicates.
+
+22-08-2025
+1) HashSet is better in terms of complexity than arraylist so make use of hashset or LinkedHashSet or treeset instead of arraylist (MISSING NUMBER LC268)
+2) 
