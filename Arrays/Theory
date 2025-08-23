@@ -11,3 +11,8 @@
 22-08-2025
 1) HashSet is better in terms of complexity than arraylist so make use of hashset or LinkedHashSet or treeset instead of arraylist (MISSING NUMBER LC268)
 2) Using HashMap to count frequency of element and print that element whose freq is just 1 using Map.Entry iterator. [SINGLE NUMBER LC 136]
+
+
+23-08-2025
+1) HashMap is a useful too; whenever we need to use frequency. But, whenevenr you get a keyword n/3, use Bayer Moore to reduce space complexity. [GFG160-Arrays-Majority element question]
+2) 
