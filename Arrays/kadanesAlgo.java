@@ -4,22 +4,21 @@
 
 
 class Solution {
-    public int minSubArrayLen(int target, int[] nums) {
-        ArrayList<Integer> seen = new ArrayList<>();
-        int left = 0;
-        int minLen = Integer.MAX_VALUE;
+    public int maxSubArray(int[] nums) {
+        int n = nums.length;
         int sum = 0;
-
-        for(int right = 0; right<nums.length; right++)
+        int maxSum = Integer.MIN_VALUE;
+        for(int i = 0 ;i<n;i++)
         {
-            sum = sum+nums[right];
-            while(sum>=target)
+            sum += nums[i];
+            maxSum = Math.max(maxSum,sum);
+            if(sum<0)
             {
-                minLen = Math.min(minLen, right-left+1);
-                sum = sum-nums[left];
-                left++;
+                sum = 0;
             }
+
         }
-        return (minLen == Integer.MAX_VALUE) ? 0: minLen;
+        return maxSum;
+
     }
 }
